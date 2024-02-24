@@ -8,41 +8,43 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        This is the result
-        <br />
-        this is the result
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          This is the result
+          <br />
+          this is the result
+        </div>
+      </main>
 
-    <footer>
-      This was coded by Holly smith and is
-      <a
-        href="https://github.com/hollsmith2000/AI-Generator-Project"
-        target="_blank"
-        >Open-Sourced on Github</a
-      >
-      and is
-      <a href="https://glistening-caramel-3a9071.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This was coded by Holly smith and is
+        <a
+          href="https://github.com/hollsmith2000/AI-Generator-Project"
+          target="_blank"
+          >Open-Sourced on Github</a
+        >
+        and is
+        <a href="https://glistening-caramel-3a9071.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
