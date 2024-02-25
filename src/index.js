@@ -18,9 +18,9 @@ function generateCar(event) {
     `You are a renowned car salesman that loves sport cars. Your mission is to name three sports cars that would be suitable for the user in basic HTML. Bullet Point your three results abd seperate with a <br /> element. YOU MUST NOT provide a description of the car, ONLY the name. Make sure to follow the user instructions.`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  let poemElement = document.querySelector("#car");
-  poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="generating">Generating the recommendations that have the requirements: ${instructionsInput.value}</div>`;
+  let carElement = document.querySelector("#car");
+  carElement.classList.remove("hidden");
+  carlement.innerHTML = `<div class="generating">Generating the recommendations that have the requirements: ${instructionsInput.value}</div>`;
 
   console.log("Generating Recommendations");
   axios.get(apiUrl).then(displayCar);
