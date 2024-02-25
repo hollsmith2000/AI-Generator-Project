@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #86c6ff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +12,7 @@ h1 {
 }
 
 a {
-  color: #885df1;
+  color: #062ffa;
 }
 
 .container {
@@ -59,7 +59,7 @@ header {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: #062ffa;
   color: white;
   border: none;
   width: 150px;
@@ -68,17 +68,13 @@ header {
   padding: 14px 24px;
 }
 
-.poem {
+.car {
   font-size: 14px;
   background-color: #fff;
   padding: 20px;
   line-height: 1.5;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #062ffa;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-}
-
-.poem strong {
-  color: #885df1;
 }
 
 footer {

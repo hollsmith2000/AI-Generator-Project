@@ -7,20 +7,20 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Document</title>
+    <title>AI Sports Car Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Poem Generator</h1>
+        <h1>AI Sports Car Recommendation Generator</h1>
       </header>
 
       <main>
         <div class="form-container">
-          <form id="poem-generator-form">
+          <form id="car-generator-form">
             <input
               type="text"
-              placeholder="Enter the topic of poem"
+              placeholder="Enter something you want a sports car to have"
               autofocus
               required
               autocomplete="off"
@@ -29,9 +29,9 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="hint">i.e: Flower, Paris, Cheese</div>
+          <div class="hint">i.e: V8 Engine, Red, 5 Door</div>
         </div>
-        <div class="poem hidden" id="poem"></div>
+        <div class="car hidden" id="car"></div>
       </main>
 
       <footer>
