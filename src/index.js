@@ -20,7 +20,7 @@ function generateCar(event) {
 
   let carElement = document.querySelector("#car");
   carElement.classList.remove("hidden");
-  carlement.innerHTML = `<div class="generating">Generating the recommendations that have the requirements: ${instructionsInput.value}</div>`;
+  carElement.innerHTML = `<div class="generating">Generating the recommendations that have the requirements: ${instructionsInput.value}</div>`;
 
   console.log("Generating Recommendations");
   axios.get(apiUrl).then(displayCar);
